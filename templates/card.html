@@ -1,16 +1,57 @@
-<li class="card">
-  <h2 class="card--title">Bulbasaur</h2>
-  <img
-    width="256"
-    class="card--img"
-    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
-  />
-  <ul class="card--text">
-    <li>HP: 45</li>
-    <li>ATTACK: 49</li>
-    <li>DEFENSE: 49</li>
-    <li>SPECIAL-ATTACK: 65</li>
-    <li>SPECIAL-DEFENSE: 65</li>
-    <li>SPEED: 45</li>
-  </ul>
-</li>
+    <li class="card">
+      <h2 class="card--title">Bulbasaur</h2>
+      <img
+        width="256"
+        class="card--img"
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+      />
+      <ul class="card--text">
+        <li>HP: 45</li>
+        <li>ATTACK: 49</li>
+        <li>DEFENSE: 49</li>
+        <li>SPECIAL-ATTACK: 65</li>
+        <li>SPECIAL-DEFENSE: 65</li>
+        <li>SPEED: 45</li>
+      </ul>
+    </li>
+
+<!-- Pseudo code-->
+// 1.0 Create the bridge using <ul class="cards"></ul>
+
+// 2.2 renderPokemonCards(data)
+// - A for loop on the array of pokemon
+//   - run renderPokemon()
+//   - append to the element from Step 1.0
+// - input: an array of objects that represent pokemon (data)
+// - output: -
+
+
+// <!--this generates a list of elements --->
+
+// const stat = ["HP", "ATACK", "Defens", "Special"];
+// stat.forEach(function(el) {
+// const list = document.createElement("li");
+// list.innerHTML = el;
+// document.body.appendChild(list);
+// });
+// appendChild(pokemonStats, stat);
+
+
+
+// below is a function that creates text
+
+// function createListStats(text) { 
+  //     const li = document.createElement('li');
+  //     li.textContent = text;
+  //     return li;
+  // }
+  
+  // const items = [
+  //     createListStats('Whatevr'),
+  //     createListStats('Whatevr'),
+  //     createListStats('Whatevr'),
+  //     createListStats('Whatevr'),
+  // ]
+  
+
+
